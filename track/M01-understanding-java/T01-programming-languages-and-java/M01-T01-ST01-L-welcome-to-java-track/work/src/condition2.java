@@ -1,0 +1,11 @@
+public class condition2 {
+    public static void main(String[] args) {
+        int num = -8;
+        if (num > -8) {
+            System.out.println("Positive");
+        } else {
+            System.out.println("Negative");
+        }
+    }
+
+}
