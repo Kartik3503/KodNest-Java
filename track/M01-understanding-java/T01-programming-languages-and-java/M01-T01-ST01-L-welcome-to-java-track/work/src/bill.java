@@ -6,7 +6,7 @@ public class bill {
         // 1. Validate units at the very beginning
         if (units < 0) {
             System.out.println("Invalid units");
-            return; // Stop the program here if units are negative
+            return;
         }
 
         // 2. Use double for currency values and initialize to 0
