@@ -31,12 +31,12 @@ public class zero_at_end {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
+        Scanner sca = new Scanner(System.in);
+        int num = sca.nextInt();
         int[] nums = new int[num];
         for (int i = 0; i < nums.length; i++) {
             System.out.println("Enter yiur value for index " + i + ": ");
-            nums[i] = sc.nextInt();
+            nums[i] = sca.nextInt();
         }
         System.out.println(Arrays.toString(moveZeros(nums)));
     }
